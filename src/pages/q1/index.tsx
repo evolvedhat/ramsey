@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Menu, MenuItem } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 
-function Q1() {
+export default function Q1() {
   const [isTrueClicked, setIsTrueClicked] = useState(false);
   const [isFalseClicked, setIsFalseClicked] = useState(false);
 
@@ -25,21 +25,23 @@ function Q1() {
 
   return (
     <div>
-      <Button
-        variant="contained"
-        color="primary"
-        style={{
-          position: "absolute",
-          top: "10px",
-          left: "10px",
-          display: "flex",
-          alignItems: "center",
-          gap: "5px",
-        }}
-        // onClick={handleButtonClick}
-      >
-        <HomeIcon /> Home
-      </Button>
+      <a href="/">
+        <Button
+          variant="contained"
+          color="primary"
+          style={{
+            position: "absolute",
+            top: "10px",
+            left: "10px",
+            display: "flex",
+            alignItems: "center",
+            gap: "5px",
+          }}
+          // onClick={handleButtonClick}
+        >
+          <HomeIcon /> Home
+        </Button>
+      </a>
       <h1>Ramsey Theory - Question 1</h1>
       <p>
         The drink options at a party are cola, juice or water and there are more
@@ -97,5 +99,3 @@ function Q1() {
     </div>
   );
 }
-
-export default Q1;
