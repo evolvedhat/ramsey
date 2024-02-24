@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Button, Menu, MenuItem } from "@mui/material";
+import React from "react";
+import { Button } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 
 export default function RadoBio() {
@@ -24,7 +24,7 @@ export default function RadoBio() {
       </a>
       <img src="/rado.jpeg" alt="Richard Rado" style={{ width: "20%" }} />
       <h1>Richard Rado</h1>
-      <p>
+      <p style={{ backgroundColor: "white", padding: "20px" }}>
         Richard Rado was born on April 28, 1906, in Berlin, Germany. He was a
         distinguished mathematician who left an indelible mark on various
         branches of mathematics, spanning from convergence of sequences and

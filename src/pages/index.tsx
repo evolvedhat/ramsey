@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Button, Menu, MenuItem } from "@mui/material";
 
 import "./index.css";
-// import Notes from "./views/Notes";
-// import Q1 from "./views/Q1";
 
 function App() {
   const [anchorElBio, setAnchorElBio] = useState(null);
@@ -34,11 +32,6 @@ function App() {
     setAnchorElSolutions(null);
   };
 
-  // if (currentPage === "Ramsey") {
-  //   return <>notes</>;
-  // } else if (currentQ === "Q1") {
-  //   return <>q1</>;
-  // } else {
   return (
     <>
       <h1>Ramsey Theory</h1>
@@ -122,7 +115,10 @@ function App() {
           open={Boolean(anchorElPractice)}
           onClose={handleClose}
         >
-          <a href="q1">
+          <a
+            href="ramseyProblems"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
             <MenuItem>Ramsey's Theorem</MenuItem>
           </a>
           <MenuItem onClick={handleClose}>van der Waerden's Theorem</MenuItem>
@@ -163,7 +159,6 @@ function App() {
       </div>
     </>
   );
-  // }
 }
 
 export default App;

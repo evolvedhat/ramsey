@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Button, Menu, MenuItem } from "@mui/material";
+import React from "react";
+import { Button } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 
 export default function RamseyBio() {
@@ -24,7 +24,7 @@ export default function RamseyBio() {
       </a>
       <img src="/ramsey.jpeg" alt="Frank Ramsey" />
       <h1>Frank Ramsey</h1>
-      <p>
+      <p style={{ backgroundColor: "white", padding: "20px" }}>
         Frank Plumpton Ramsey was born on February 22, 1903 in Cambridge,
         England. He was a mathematician and philosopher, whose work continues to
         influence mathematics in various fields despite his short life. Ramsey's

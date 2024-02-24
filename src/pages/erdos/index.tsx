@@ -24,7 +24,7 @@ export default function ErdosBio() {
       </a>
       <img src="/erdos.jpeg" alt="Paul Erdős" />
       <h1>Paul Erdős</h1>
-      <p>
+      <p style={{ backgroundColor: "white", padding: "20px" }}>
         Paul Erdős was born on March 26, 1913 in Budapest, Hungary and is
         considered the father of modern Ramsey Theory. His two sisters
         tragically died of scarlet fever days before his birth at the ages of

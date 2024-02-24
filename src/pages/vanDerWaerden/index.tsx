@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Button, Menu, MenuItem } from "@mui/material";
+import React from "react";
+import { Button } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 
 export default function VanBio() {
@@ -24,7 +24,7 @@ export default function VanBio() {
       </a>
       <img src="/waerden.jpeg" alt="Van der Waerden" style={{ width: "20%" }} />
       <h1>Bartel Leendert Van der Waerden</h1>
-      <p>
+      <p style={{ backgroundColor: "white", padding: "20px" }}>
         Bartel Leendert Van der Waerden was born on February 2, 1903, in
         Amsterdam, Netherlands, and passed away at the age of 92 on January 12,
         1996, in Zurich, Switzerland. He was the oldest of three children to his

@@ -6,9 +6,12 @@ import { components, hooks, utils } from '@generouted/react-router/client'
 export type Path =
   | `/`
   | `/erdos`
-  | `/q1`
   | `/rado`
   | `/ramsey`
+  | `/ramseyProblems`
+  | `/ramseyQ1`
+  | `/ramseyQ2`
+  | `/ramseyQ3`
   | `/schur`
   | `/vanDerWaerden`
 

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Button, Menu, MenuItem } from "@mui/material";
+import React from "react";
+import { Button } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 
 export default function SchurBio() {
@@ -24,7 +24,7 @@ export default function SchurBio() {
       </a>
       <img src="/schur.jpeg" alt="Issai Schur" style={{ width: "20%" }} />
       <h1>Issai Schur</h1>
-      <p>
+      <p style={{ backgroundColor: "white", padding: "20px" }}>
         Issai Schur was born on January 10, 1875, in Mogilev, Russian Empire. He
         was a mathematician who transcended geographical boundaries, leaving a
         lasting mark on various branches of the discipline. Schur's mathematical
