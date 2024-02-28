@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Button, Menu, MenuItem } from "@mui/material";
+import React from "react";
+import { Button } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 
 export default function ErdosBio() {
