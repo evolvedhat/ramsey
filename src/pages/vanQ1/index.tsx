@@ -25,7 +25,6 @@ export default function Q1() {
     setIsCorrect(false);
     setShowIncorrectMessage(false);
   };
-  // TODO: move this to van der waerden section
   return (
     <div>
       <a href="/">
@@ -44,10 +43,10 @@ export default function Q1() {
           <HomeIcon /> Home
         </Button>
       </a>
-      <a href="/ramseyProblems">
+      <a href="/vanProblems">
         <Button
           variant="contained"
-          color="primary"
+          color="warning"
           style={{
             position: "absolute",
             top: "10px",
@@ -60,7 +59,7 @@ export default function Q1() {
           <ArrowBackIcon /> Back
         </Button>
       </a>
-      <h1>Ramsey Theory - Question 1</h1>
+      <h1>van der Waerden Theorem - Question 1</h1>
       <p style={{ backgroundColor: "white", padding: "20px" }}>
         In an infinite word W on the alphabet {"{A, B, C}"} (meaning the word
         can only have letters A, B, or C), a two-letter word can appear a

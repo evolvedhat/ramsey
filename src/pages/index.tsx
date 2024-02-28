@@ -89,7 +89,12 @@ function App() {
           open={Boolean(anchorElNotes)}
           onClose={handleClose}
         >
-          <MenuItem onClick={handleClose}>Ramsey's Theorem</MenuItem>
+          <a
+            href="/notesPage"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <MenuItem>Ramsey's Theorem</MenuItem>
+          </a>
           <MenuItem onClick={handleClose}>van der Waerden's Theorem</MenuItem>
           <MenuItem onClick={handleClose}>Schur's Theorem</MenuItem>
           <MenuItem onClick={handleClose}>Rado's Theorem</MenuItem>
@@ -116,12 +121,17 @@ function App() {
           onClose={handleClose}
         >
           <a
-            href="ramseyProblems"
+            href="/ramseyProblems"
             style={{ textDecoration: "none", color: "inherit" }}
           >
             <MenuItem>Ramsey's Theorem</MenuItem>
           </a>
-          <MenuItem onClick={handleClose}>van der Waerden's Theorem</MenuItem>
+          <MenuItem
+            href="/vanProblems"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            van der Waerden's Theorem
+          </MenuItem>
           <MenuItem onClick={handleClose}>Schur's Theorem</MenuItem>
           <MenuItem onClick={handleClose}>Rado's Theorem</MenuItem>
           <MenuItem onClick={handleClose}>Hales-Jewett Theorem</MenuItem>

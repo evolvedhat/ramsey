@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 
-export default function RamseyProblems() {
+export default function NotesPage() {
   return (
     <>
       <a href="/">
@@ -23,7 +23,7 @@ export default function RamseyProblems() {
       </a>
       <div style={{ marginTop: "50px" }}>
         <a
-          href="/ramseyQ1"
+          href="/pigeonhole"
           style={{
             textDecoration: "none",
             color: "inherit",
@@ -32,11 +32,11 @@ export default function RamseyProblems() {
           }}
         >
           <Button variant="contained" color="primary">
-            Question 1
+            Pigeonhole Principle{" "}
           </Button>
         </a>
         <a
-          href="/ramseyQ2"
+          href="/ramseyThm"
           style={{
             textDecoration: "none",
             color: "inherit",
@@ -45,7 +45,7 @@ export default function RamseyProblems() {
           }}
         >
           <Button variant="contained" color="primary">
-            Question 2
+            Ramsey's Theorem{" "}
           </Button>
         </a>
       </div>

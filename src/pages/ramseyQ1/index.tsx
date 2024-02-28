@@ -47,7 +47,7 @@ export default function Q1() {
       <a href="/ramseyProblems">
         <Button
           variant="contained"
-          color="primary"
+          color="warning"
           style={{
             position: "absolute",
             top: "10px",

@@ -58,7 +58,7 @@ export default function Q1() {
       <a href="/ramseyProblems">
         <Button
           variant="contained"
-          color="primary"
+          color="warning"
           style={{
             position: "absolute",
             top: "10px",
@@ -71,7 +71,7 @@ export default function Q1() {
           <ArrowBackIcon /> Back
         </Button>
       </a>
-      <h1>Ramsey Theory - Question 1</h1>
+      <h1>Ramsey Theory - Question 2</h1>
       <p style={{ backgroundColor: "white", padding: "20px" }}>
         Suppose that a school has 2 different sports teams: baseball and hockey
         and suppose that the gymnasium can only be entered by members of those
