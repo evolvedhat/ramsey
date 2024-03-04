@@ -101,13 +101,36 @@ function App() {
           >
             <MenuItem>van der Waerden's Theorem</MenuItem>
           </a>
-          <MenuItem onClick={handleClose}>Schur's Theorem</MenuItem>
-          <MenuItem onClick={handleClose}>Rado's Theorem</MenuItem>
-          <MenuItem onClick={handleClose}>Hales-Jewett Theorem</MenuItem>
-          <MenuItem onClick={handleClose}>Erdos-Szekeres Theorem </MenuItem>
-          <MenuItem onClick={handleClose}>
-            Chromatic Number of the Plane
-          </MenuItem>
+          <a
+            href="/schurNotesPage"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <MenuItem>Schur's Theorem</MenuItem>
+          </a>
+          <a
+            href="/radoNotesPage"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <MenuItem>Rado's Theorem</MenuItem>
+          </a>
+          <a
+            href="/hjNotesPage"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <MenuItem>Hales-Jewett Theorem</MenuItem>
+          </a>
+          <a
+            href="/esNotesPage"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <MenuItem>Erdos-Szekeres Theorem </MenuItem>
+          </a>
+          <a
+            href="/cnNotesPage"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <MenuItem>Chromatic Number of the Plane </MenuItem>
+          </a>
         </Menu>
 
         <Button
@@ -131,12 +154,12 @@ function App() {
           >
             <MenuItem>Ramsey's Theorem</MenuItem>
           </a>
-          <MenuItem
+          <a
             href="/vanProblems"
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            van der Waerden's Theorem
-          </MenuItem>
+            <MenuItem>van der Waerden's Theorem</MenuItem>
+          </a>
           <MenuItem onClick={handleClose}>Schur's Theorem</MenuItem>
           <MenuItem onClick={handleClose}>Rado's Theorem</MenuItem>
           <MenuItem onClick={handleClose}>Hales-Jewett Theorem</MenuItem>
