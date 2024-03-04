@@ -1,7 +1,7 @@
 // Generouted, changes to this file will be overriden
 /* eslint-disable */
 
-import { components, hooks, utils } from "@generouted/react-router/client";
+import { components, hooks, utils } from '@generouted/react-router/client'
 
 export type Path =
   | `/`
@@ -16,17 +16,20 @@ export type Path =
   | `/ramseyThm`
   | `/schur`
   | `/vanDerWaerden`
+  | `/vanNotesPage`
   | `/vanProblems`
-  | `/vanQ1`;
+  | `/vanQ1`
+  | `/vanThm1`
+  | `/vanThm2`
+  | `/vanThm3`
+  | `/vanThm4`
 
-export type Params = {};
+export type Params = {
+  
+}
 
-export type ModalPath = never;
+export type ModalPath = never
 
-export const { Link, Navigate } = components<Path, Params>();
-export const { useModals, useNavigate, useParams } = hooks<
-  Path,
-  Params,
-  ModalPath
->();
-export const { redirect } = utils<Path, Params>();
+export const { Link, Navigate } = components<Path, Params>()
+export const { useModals, useNavigate, useParams } = hooks<Path, Params, ModalPath>()
+export const { redirect } = utils<Path, Params>()

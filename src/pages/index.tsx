@@ -95,7 +95,12 @@ function App() {
           >
             <MenuItem>Ramsey's Theorem</MenuItem>
           </a>
-          <MenuItem onClick={handleClose}>van der Waerden's Theorem</MenuItem>
+          <a
+            href="/vanNotesPage"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <MenuItem>van der Waerden's Theorem</MenuItem>
+          </a>
           <MenuItem onClick={handleClose}>Schur's Theorem</MenuItem>
           <MenuItem onClick={handleClose}>Rado's Theorem</MenuItem>
           <MenuItem onClick={handleClose}>Hales-Jewett Theorem</MenuItem>
