@@ -160,7 +160,12 @@ function App() {
           >
             <MenuItem>van der Waerden's Theorem</MenuItem>
           </a>
-          <MenuItem onClick={handleClose}>Schur's Theorem</MenuItem>
+          <a
+            href="/schurProblems"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <MenuItem>Schur's Theorem</MenuItem>
+          </a>
           <MenuItem onClick={handleClose}>Rado's Theorem</MenuItem>
           <MenuItem onClick={handleClose}>Hales-Jewett Theorem</MenuItem>
           <MenuItem onClick={handleClose}>Erdos-Szekeres Theorem </MenuItem>
@@ -169,31 +174,11 @@ function App() {
           </MenuItem>
         </Menu>
 
-        <Button
-          variant="contained"
-          color="primary"
-          style={{ marginRight: "10px" }}
-          onClick={showSolutionsPage}
-        >
-          Solutions
-        </Button>
-        <Menu
-          id="solutions-menu"
-          anchorEl={anchorElSolutions}
-          keepMounted
-          open={Boolean(anchorElSolutions)}
-          onClose={handleClose}
-        >
-          <MenuItem onClick={handleClose}>Ramsey's Theorem</MenuItem>
-          <MenuItem onClick={handleClose}>van der Waerden's Theorem</MenuItem>
-          <MenuItem onClick={handleClose}>Schur's Theorem</MenuItem>
-          <MenuItem onClick={handleClose}>Rado's Theorem</MenuItem>
-          <MenuItem onClick={handleClose}>Hales-Jewett Theorem</MenuItem>
-          <MenuItem onClick={handleClose}>Erdos-Szekeres Theorem </MenuItem>
-          <MenuItem onClick={handleClose}>
-            Chromatic Number of the Plane
-          </MenuItem>
-        </Menu>
+        <a href="/vidSolutions">
+          <Button variant="contained" color="primary">
+            Solutions
+          </Button>
+        </a>
       </div>
     </>
   );

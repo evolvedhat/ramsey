@@ -17,6 +17,7 @@ export type Path =
   | `/hjThm2`
   | `/notesPage`
   | `/pigeonhole`
+  | `/rSol1`
   | `/rado`
   | `/radoNotesPage`
   | `/radoThm`
@@ -27,15 +28,24 @@ export type Path =
   | `/ramseyThm`
   | `/schur`
   | `/schurNotesPage`
+  | `/schurProblems`
+  | `/schurQ1`
+  | `/schurQ2`
   | `/schurThm`
   | `/vanDerWaerden`
   | `/vanNotesPage`
   | `/vanProblems`
   | `/vanQ1`
+  | `/vanQ2`
+  | `/vanQ3`
+  | `/vanQ4`
+  | `/vanQ5`
+  | `/vanQ6`
   | `/vanThm1`
   | `/vanThm2`
   | `/vanThm3`
   | `/vanThm4`
+  | `/vidSolutions`
 
 export type Params = {
   

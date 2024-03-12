@@ -35,6 +35,71 @@ export default function VanProblems() {
             Question 1
           </Button>
         </a>
+        <a
+          href="/vanQ2"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            display: "block",
+            marginBottom: "10px",
+          }}
+        >
+          <Button variant="contained" color="primary">
+            Question 2
+          </Button>
+        </a>
+        <a
+          href="/vanQ3"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            display: "block",
+            marginBottom: "10px",
+          }}
+        >
+          <Button variant="contained" color="primary">
+            Question 3
+          </Button>
+        </a>
+        <a
+          href="/vanQ4"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            display: "block",
+            marginBottom: "10px",
+          }}
+        >
+          <Button variant="contained" color="primary">
+            Question 4
+          </Button>
+        </a>
+        <a
+          href="/vanQ5"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            display: "block",
+            marginBottom: "10px",
+          }}
+        >
+          <Button variant="contained" color="primary">
+            Question 5
+          </Button>
+        </a>
+        <a
+          href="/vanQ6"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            display: "block",
+            marginBottom: "10px",
+          }}
+        >
+          <Button variant="contained" color="primary">
+            Question 6
+          </Button>
+        </a>
       </div>
     </>
   );
